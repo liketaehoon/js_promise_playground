@@ -10,10 +10,3 @@ const promise = new Promise(function(resolve, reject){
 
 promise.then((result) => { console.log(result)}, (err) => { console.error(err);});
 
-// Promise Chain
-const promiseChain = new Promise((resolve, reject) => { resolve(1); });
-promiseChain.then((val) => { return val +1; }).then((val) => { console.log(val); });
-
-// Promise Error & Catch
-
-
