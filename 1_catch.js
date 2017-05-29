@@ -9,8 +9,8 @@ jsonPromise.then(() => {
 });
 
 jsonPromise
-    .then(() => {
-    }, (err) => {
+    .then(() => { // resolve
+    }, (err) => { // reject
         console.log('reject handler in then');
     })
     .then(() => {

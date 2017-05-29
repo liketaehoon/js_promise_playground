@@ -8,5 +8,6 @@ const promise = new Promise(function(resolve, reject){
     }
 });
 
-promise.then((result) => { console.log(result)}, (err) => { console.error(err);});
+promise
+    .then((result) => { console.log(result)}, (err) => { console.error(err); });
 

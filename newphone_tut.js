@@ -1,6 +1,6 @@
 // following codes are show at https://scotch.io/tutorials/javascript-promises-for-dummies
 
-const isMomHappy = false;
+const isMomHappy = true;
 
 var willIGetNewPhone = new Promise(
     function (resolve, reject) {
